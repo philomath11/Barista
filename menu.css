@@ -69,18 +69,18 @@ header{
     font-size: 1.3em;
 }
 
-.product-content{
+.menu-content{
     display: grid;
     grid-template-columns: repeat(4, 250px);
     justify-content: space-between;
     gap:1rem;
-    background: rgb(248, 197, 130);
+    background: rgb(242, 204, 139);
     border-radius: 2em;
     padding: 40px 60px;
 }
 
-.product-box{
-    background-color:white;
+.menu-box{
+    background-color: var(--container-color);
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -89,24 +89,24 @@ header{
     position: relative;
 }
 
-.product-box .heart-icon{
+.menu-box .heart-icon{
     position: absolute;
     top: 20px;
     left:2px;
     padding: 8px;
     background: rgb(50, 49, 49);
-    color: white;
+    color: var(--second-color);
     border-radius: 50%;
 }
 
-.product-box h3{
+.menu-box h3{
     color: var(--main-color);
     font-size: 1.5rem;
     font-weight: 500;
     margin-top: 0.5rem;
 }
 
-.product-info{
+.menu-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -114,13 +114,13 @@ header{
     width: 100%;
 }
 
-.product-info span{
+.menu-info span{
     color: var(--main-color);
     font-size: 1rem;
     font-weight: 500;
 }
 
-.product-info .bx{
+.menu-info .bx{
          padding:8px;
          color: var(--main-color);
          background: var(--second-color);
@@ -128,7 +128,7 @@ header{
          cursor: pointer;
 }
 
-.product-info .bx:hover{
+.menu-info .bx:hover{
     background: var(--main-color);
     transition: 0.4s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
